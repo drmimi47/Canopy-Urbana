@@ -1,0 +1,42 @@
+{
+  "R6": {
+    "max_far": 2.43,
+    "max_height": 50,
+    "lot_coverage": 0.65,
+    "front_setback": 10,
+    "rear_setback": 30,
+    "side_setback": 8
+  },
+  "R7-2": {
+    "max_far": 3.44,
+    "max_height": 80,
+    "lot_coverage": 0.65,
+    "front_setback": 10,
+    "rear_setback": 30,
+    "side_setback": 8
+  },
+  "R8": {
+    "max_far": 6.02,
+    "max_height": 120,
+    "lot_coverage": 0.70,
+    "front_setback": 15,
+    "rear_setback": 30,
+    "side_setback": 8
+  },
+  "C6-4": {
+    "max_far": 10.0,
+    "max_height": 400,
+    "lot_coverage": 1.0,
+    "front_setback": 0,
+    "rear_setback": 0,
+    "side_setback": 0
+  },
+  "M1-1": {
+    "max_far": 1.0,
+    "max_height": 60,
+    "lot_coverage": 0.85,
+    "front_setback": 0,
+    "rear_setback": 20,
+    "side_setback": 0
+  }
+}

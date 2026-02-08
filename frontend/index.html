@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CANOPY URBANA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <h1>CANOPY URBANA</h1>
+      
+      <div class="input-group">
+        <label>Lot Width (ft):</label>
+        <input type="number" id="lotWidth" value="100" min="20" max="500">
+      </div>
+      
+      <div class="input-group">
+        <label>Lot Depth (ft):</label>
+        <input type="number" id="lotDepth" value="100" min="20" max="500">
+      </div>
+      
+      <div class="input-group">
+        <label>Zoning District:</label>
+        <select id="zoningDistrict">
+          <option value="R6">R6 - Residential</option>
+          <option value="R7-2">R7-2 - Residential</option>
+          <option value="R8">R8 - Residential</option>
+          <option value="C6-4">C6-4 - Commercial</option>
+          <option value="M1-1">M1-1 - Manufacturing</option>
+        </select>
+      </div>
+      
+      <button id="generateBtn">Generate Massing</button>
+      
+      <button id="envelopeToggle" style="background: #666; margin-top: 5px;">
+        Hide FAR Envelope
+      </button>
+
+      <div class="input-group">
+        <label><br>Sun Azimuth</label>
+        <input type="range" id="sunSlider" min="0" max="360" value="135">
+      </div>
+
+
+      <div id="info" class="info-panel"></div>
+    </div>
+    
+    <div id="canvas-container"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

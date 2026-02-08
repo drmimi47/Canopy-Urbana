@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+}
+ 
+input[type="range"] {
+  width: 100%;
+  margin-top: 5px;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  width: 320px;
+  background: #2a2a2a;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  background: #3a3a3a;
+  border: 1px solid #555;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #3a3a3a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #E24A4A;
+}
+
+.info-panel {
+  margin-top: 30px;
+  padding: 15px;
+  background: #3a3a3a;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.info-panel h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#canvas-container {
+  flex: 1;
+  position: relative;
+}
