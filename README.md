@@ -31,3 +31,5 @@ respond to daylighting and shadow behavior across various NYC district zones.
    http://localhost:8080
 
 5. Use **ctrl+shift+r** in the local server to refresh for changes
+
+<img src="screenshot.png" width="600">
